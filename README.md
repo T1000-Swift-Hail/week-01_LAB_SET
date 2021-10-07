@@ -7,7 +7,7 @@
 
 - Creat a set of visited cities for Ahmed. 
 - Creat a set of visited cities for Faris.
-- Using a Loop , print all the cities they visited (union).
+- Using a loop , print all the cities they visited (union).
 - Using another loop, print the cities they visited both (intersection). 
 - Using a third loop, print the cities Faris visited, but Ahmed did not visit (subtracting).
 
