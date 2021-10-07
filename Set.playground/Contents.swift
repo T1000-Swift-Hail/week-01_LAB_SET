@@ -5,22 +5,21 @@ var FarisvisitedCities :Set = ["Riyadh", "Jizan", "Abu Dhabi", "Hail"]
 
 var FarisCititesvisited = AhmedvisitedCities.union(FarisvisitedCities)
 
-print(FarisCititesvisited)
-
+print("cities they visited")
 for cities in FarisvisitedCities {
-    print("cities they visited \(cities)!")
+    print("\(cities)!")
     
 }
 
 FarisvisitedCities = AhmedvisitedCities.intersection(FarisvisitedCities)
-print(FarisCititesvisited)
+print("cities they visited ")
 for cities in FarisvisitedCities {
-    print("cities they visited \(cities)!")
+    print("\(cities)!")
 }
 
 FarisvisitedCities = AhmedvisitedCities.subtracting(FarisvisitedCities)
-print(FarisCititesvisited)
+print("cities Faris visited ")
 for cities in FarisvisitedCities {
-    print("cities they visited \(cities)!")
+    print(" \(cities)!")
 }
 
