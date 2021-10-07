@@ -6,7 +6,8 @@ var faris : Set = ["Riyadh", "Jizan", "Abu Dhabi", "Hail"]
 
 var ahmedVisited = ahmed.union(faris)
 var farisVisited = ahmed.intersection(faris)
-var farisNotVisited = ahmed.subtracting(faris)
+var farisNotVisited = faris.subtracting(ahmed)
+
 print("Union:  ")
 for visited in ahmedVisited{
     print("\(visited)")
