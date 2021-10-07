@@ -1,6 +1,6 @@
 # week-01_LAB_SET
 
-### Ahmed visited those cities ["Hail", "Riyadh", "Dubai"]  and Faris visited ["Riyadh", "Jizan", "Abu Dhabi", "Hail"] cities in Saudi.
+### Ahmed visited those cities ["Hail", "Riyadh", "Dubai"]  and Faris visited ["Riyadh", "Jizan", "Abu Dhabi", "Hail"] .
 
 
 ### Using Sets, do the following:
