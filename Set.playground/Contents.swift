@@ -3,23 +3,25 @@ import UIKit
 var AhmedvisitedCities :Set<String> = ["Hail", "Riyadh", "Dubai"]
 var FarisvisitedCities :Set = ["Riyadh", "Jizan", "Abu Dhabi", "Hail"]
 
-var FarisCititesvisited = AhmedvisitedCities.union(FarisvisitedCities)
+var allthecitiestheyvisited = AhmedvisitedCities.union(FarisvisitedCities)
 
-print("cities they visited")
-for cities in FarisvisitedCities {
+print("all the cities they visited")
+for cities in allthecitiestheyvisited {
     print("\(cities)!")
     
 }
 
-FarisvisitedCities = AhmedvisitedCities.intersection(FarisvisitedCities)
-print("cities they visited ")
-for cities in FarisvisitedCities {
+var thecitiestheyvisitedboth = AhmedvisitedCities.intersection(FarisvisitedCities)
+print("cities they are visited Both")
+for cities in thecitiestheyvisitedboth {
     print("\(cities)!")
 }
 
-FarisvisitedCities = AhmedvisitedCities.subtracting(FarisvisitedCities)
-print("cities Faris visited ")
-for cities in FarisvisitedCities {
-    print(" \(cities)!")
+var FarisVisitedAndAhmedNotVisit = FarisvisitedCities.subtracting(AhmedvisitedCities)
+print("cities Faris visited, but Ahmed did not visit")
+for cities in FarisVisitedAndAhmedNotVisit {
+    
+    print("\(cities)!")
+
 }
 
